@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+}
+
+.one {
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+
+}
+
+.one h1 {
+    color: rgb(54,178,176);
+}
+
+.one h3 {
+    color: rgb(166, 248, 1);
+}
+
+.one p {
+    color: rgba(102, 101, 101, 0.863);
+    line-height: 30px;
+}
+
+.two {
+    color: white;
+    background-color:  rgb(43,178,176);
+    padding: 20px;
+    
+}
+
+span {
+    font-size: 2em;
+}
+
+.dim {
+    color: rgba(242, 245, 248, 0.925);
+}
+
+button {
+    background-color: rgb(190,222,52);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+.three {
+    color: white;
+    background-color:rgb(75,191,189);
+    padding: 20px;
+    
+
+}
+@media only screen and (min-width:1024px){
+    .one {
+        background-color: rgb(253, 253, 253);
+        padding: 20px 0px 20px 500px;
+    }
+    
+    .one h1 {
+        color: rgb(54,178,176);
+    }
+    
+    .one h3 {
+        color: rgb(166, 248, 1);
+    }
+    
+    .one p {
+        color: rgba(102, 101, 101, 0.863);
+        line-height: 30px;
+    }
+    
+    .two {
+        color: white;
+        background-color: rgb(43,178,176);
+        padding: 20px;
+        width: 50%;
+        height: 50vh;
+        float: left;
+        
+    }
+    
+    span {
+        font-size: 2em;
+    }
+    
+    .dim {
+        color: rgba(242, 245, 248, 0.925);
+    }
+    
+    button {
+        background-color: rgb(190,222,52);
+        border: none;
+        border-radius: 5px;
+        width: 200px;
+        height: 40px;
+    }
+    
+    .three {
+        color: white;
+        background-color:rgb(75,191,189);
+        padding: 50px;
+        width: 50%;
+        height: 50vh;
+        float: right;
+        
+    
+    }
+
+}
